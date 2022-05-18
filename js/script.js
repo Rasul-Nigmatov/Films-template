@@ -5,7 +5,7 @@ const elForm = document.querySelector(".form")
 const elSearchInput = document.querySelector(".form-input")
 const elSearchBtn = document.querySelector(".search-btn")
 const elTemplate = document.querySelector("#template").content;
-const newMovies = kinolar.splice(0, 20);
+const newMovies = kinolar.splice(0, 100);
 
 //map chaqirib ishlash reflesh qilish
 const normalizeMovies = newMovies.map(function (item) {
